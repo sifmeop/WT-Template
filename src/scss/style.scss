@@ -2,6 +2,11 @@
 // @import "fonts";
 @import "null";
 
+$pc: var(--container-width); // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
+$tablet: 991.98px; // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: 767.98px; // Телефоны L
+$mobile-mall: 479.98px; // Телефоны S
+
 .wrapper {
   min-height: 100%;
   display: flex;

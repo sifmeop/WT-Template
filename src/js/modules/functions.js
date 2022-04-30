@@ -12,3 +12,16 @@ export function isWebp() {
     document.documentElement.classList.add(className)
   })
 }
+
+// Burger Menu
+export function burgerMenu() {
+  const burger = document.querySelector('.menu-icon')
+  const menu = document.querySelector('.menu')
+  const body = document.body
+
+  burger.addEventListener('click', () => {
+    body.classList.toggle('scroll-stop')
+    burger.classList.toggle('menu-active')
+    menu.classList.toggle('menu-open')
+  })
+}
