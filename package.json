@@ -44,6 +44,8 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
     "sass": "^1.50.1",
+    "stylelint": "^14.8.1",
+    "stylelint-config-standard": "^25.0.0",
     "vinyl-ftp": "^0.6.1",
     "webp-converter": "2.2.3",
     "webpack": "^5.72.0",
