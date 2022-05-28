@@ -1,4 +1,4 @@
-import * as NiceFunctions from './modules/functions.js'
+import * as myFunc from "./modules/functions.js";
 
-NiceFunctions.isWebp()
-// NiceFunctions.burgerMenu()
+myFunc.isWebp();
+myFunc.burgerMenu();
